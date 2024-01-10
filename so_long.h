@@ -6,7 +6,7 @@
 /*   By: disantam <disantam@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 11:32:21 by disantam          #+#    #+#             */
-/*   Updated: 2023/11/08 16:59:50 by disantam         ###   ########.fr       */
+/*   Updated: 2024/01/08 16:20:26 by disantam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include "libft/libft.h"
-# include "mlx/include/MLX42/MLX42.h"
+# include "MLX42/include/MLX42/MLX42.h"
 
 typedef struct s_cols
 {

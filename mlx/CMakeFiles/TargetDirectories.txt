@@ -1,7 +1,7 @@
-/Users/disantam/so_long/mlx/CMakeFiles/mlx42.dir
-/Users/disantam/so_long/mlx/CMakeFiles/edit_cache.dir
-/Users/disantam/so_long/mlx/CMakeFiles/rebuild_cache.dir
-/Users/disantam/so_long/mlx/CMakeFiles/list_install_components.dir
-/Users/disantam/so_long/mlx/CMakeFiles/install.dir
-/Users/disantam/so_long/mlx/CMakeFiles/install/local.dir
-/Users/disantam/so_long/mlx/CMakeFiles/install/strip.dir
+/Users/disantam/mygit/so_long/mlx/CMakeFiles/mlx42.dir
+/Users/disantam/mygit/so_long/mlx/CMakeFiles/edit_cache.dir
+/Users/disantam/mygit/so_long/mlx/CMakeFiles/rebuild_cache.dir
+/Users/disantam/mygit/so_long/mlx/CMakeFiles/list_install_components.dir
+/Users/disantam/mygit/so_long/mlx/CMakeFiles/install.dir
+/Users/disantam/mygit/so_long/mlx/CMakeFiles/install/local.dir
+/Users/disantam/mygit/so_long/mlx/CMakeFiles/install/strip.dir
