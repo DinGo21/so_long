@@ -6,7 +6,7 @@
 /*   By: disantam <disantam@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/26 11:44:38 by disantam          #+#    #+#             */
-/*   Updated: 2023/11/08 17:00:55 by disantam         ###   ########.fr       */
+/*   Updated: 2024/01/18 14:23:39 by disantam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,9 @@ void	check_line(t_map *map, int len, int x, int y)
 			map->c[1] += 1;
 		}
 		if (map->map[x][y] == 'C')
+		{
 			map->c[2] += 1;
+		}
 	}
 	if (map->map[x][y] != '1')
 		ft_map_error(map, "Falta un muro");
@@ -102,7 +104,9 @@ void	check_map(t_map *map)
 	map->size_y = y * 16;
 	y = 0;
 	while (map->map[++x + 1] != NULL)
+	{
 		check_line(map, len, x, y);
+	}
 	y = -1;
 	while (map->map[x][++y])
 		if (map->map[x][y] != '1')

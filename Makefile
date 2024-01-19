@@ -20,6 +20,9 @@ endif
 ifeq ($(UNAME),Linux)
 	gcc $(CFLAGS) $(OBJ) $(LIB) $(MLX) -Iinclude -ldl -lglfw -pthread -lm -o $(NAME)
 endif
+ifeq ($(UNAME),Windows_NT)
+	gcc $(CFLAGS) $(OBJ) $(LIB) $(MLX) -lglfw3 -lopengl32 -lgdi32 -o $(NAME)
+endif
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
