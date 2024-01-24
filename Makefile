@@ -7,7 +7,7 @@ UNAME := $(shell uname)
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC = main.c init.c map.c utils.c window.c hooks.c
+SRC = src/main.c src/init.c src/map.c src/utils.c src/window.c src/hooks.c
 
 OBJ = $(SRC:.c=.o)
 
